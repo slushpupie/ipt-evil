@@ -1,0 +1,3 @@
+The Linux iptables supports userspace QUEUE tables. This is once such 
+implementation that does "evil" things to tcp packets. Its primary use is to 
+test protocol integrity, not really to do evil things.
