@@ -146,6 +146,7 @@ main (int argc, char **argv)
 
   status = ipq_set_mode (h, IPQ_COPY_PACKET, BUFSIZE);
   if (status < 0)
+    fprintf(stderr,"Did you forget to load the ip_queue module?\n");
     die (h);
 
   do
