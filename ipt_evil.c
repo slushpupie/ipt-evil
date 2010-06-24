@@ -24,7 +24,7 @@
  * 
  * Example usage:
  * 
- *    # iptables -A INPUT -m tcp -p tcp --dport 7 \
+ *    # iptables -A INPUT -p tcp -p tcp --dport 7 \
  *          -m state --state ESTABLISHED,RELATED -j QUEUE
  *
  *    # ./ipt_evil
